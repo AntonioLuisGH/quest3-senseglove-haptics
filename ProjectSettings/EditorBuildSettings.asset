@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Secuence/MainMenu.unity
+    guid: 5e05d0296cf0c1544b9fcc8249110eb4
+  - enabled: 0
+    path: Assets/Scenes/Task1.unity
+    guid: 7f05a93c579219c4f9924a2bb97000cc
+  - enabled: 0
+    path: Assets/Scenes/Secuence/Questionare1.unity
+    guid: cce4e162d946dfe4483498f2a1f07439
+  - enabled: 0
+    path: Assets/Scenes/Kitchen_Scene/SG_MQ3.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_Project/Scenes/EggTask/Egg_Scene.unity
+    guid: ef5a73a842bda79488e661eb617a59f2
+  - enabled: 1
+    path: Assets/_Project/Scenes/Calibration/Calibration_Scene.unity
+    guid: f8f46fa43db1bcc4f8525c57fb1e177f
+  - enabled: 1
+    path: Assets/_Project/Scenes/SpongeTask/Sponge_Scene.unity
+    guid: a4c672702e0593245ac75f85081eabd2
+  - enabled: 1
+    path: Assets/_Project/Scenes/Familiarization/Familiarization_Scene.unity
+    guid: 717579d67ca8f904bbe59553dffcdc6d
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 22158ea03ec671845913e17a830bd04f, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6e29b66bd8bb17e4ab806d040930dbf8, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 117ee456013b06c4a93d6bc177ab024e, type: 2}
+  m_UseUCBPForAssetBundles: 0

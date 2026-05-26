@@ -1,0 +1,23 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Logs/
+UserSettings/
+MemoryCaptures/
+[Rr]ecycleBin/
+
+# Unity Asset Store tools
+[Aa]ssets/[Aa]ssets[Ss]tore-5.x/
+
+# VS / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
