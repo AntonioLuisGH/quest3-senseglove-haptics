@@ -1,7 +1,7 @@
 # Haptic Embodiment in VR
 **Effects of vibrotactile and force feedback on sense of embodiment in virtual reality**
 
-A research-driven Unity application built for **Meta Quest 3** and **SenseGlove Nova 2** force-feedback gloves, developed for an MSc Robotics project at Aalborg University (8th Semester).
+A research-driven Unity application built for **Meta Quest 3** and **SenseGlove Nova 2** force-feedback gloves, developed as part of an MSc Robotics thesis at Aalborg University (8th Semester).
 
 The project runs a controlled within-subjects experiment across four haptic feedback conditions — no feedback, force only, vibrotactile only, and combined — to measure how each modality affects a user's sense of ownership and agency over a virtual hand. If you are building something with the Quest 3 or SenseGlove Nova 2, this repo includes working examples of force resistance tuning, dynamic vibrotactile scaling, multi-scene test management, and proprioceptive drift measurement.
 
@@ -14,6 +14,8 @@ The project runs a controlled within-subjects experiment across four haptic feed
 | **Engine** | Unity |
 | **HMD** | Meta Quest 3 · [Getting started with Meta XR in Unity](https://developers.meta.com/horizon/documentation/unity/unity-tutorial-hello-vr/) |
 | **Haptics** | SenseGlove Nova 2 (force feedback, vibrotactile, finger tracking) · [Getting started with SenseGlove in Unity](https://unity.docs.senseglove.com/GettingStarted/tutorials.html) |
+
+![System Layout](Docs/Images/system_layout.png)
 
 ---
 
@@ -39,9 +41,15 @@ A 15 cm x-axis offset is silently applied to the virtual right hand after calibr
 
 **Familiarization** — One minute of free exploration with a set of everyday objects (shape-sorting toys, food, plants, plush toys) before any data is recorded. Gives participants time to get used to the gloves and haptic response without the pressure of a task.
 
+![Familiarization Scene](Docs/Images/familiarization_scene.png)
+
 **Egg Task** — The participant transfers 15 fragile eggs from a table into a bowl without breaking them. Squeezing too hard — past a tuned yield distance of 25 mm with at least two fingers — cracks the egg and triggers a shell fragment break animation, a crack sound effect, and a full-hand haptic burst waveform. A HUD displays the live bowl count and broken egg tally. Completion time is recorded automatically.
 
+![Egg Task](Docs/Images/egg_scene.png)
+
 **Sponge Task** — The participant squeezes a sponge above four jars of increasing size to fill each one to a green target line. The sponge mesh deforms visually in real time using `SG_MeshDeform`. Water particle emission rate, sound volume, and vibrotactile intensity all increase together as the participant squeezes harder. Fill accuracy per jar is recorded as percentage error from the target level.
+
+![Sponge Task](Docs/Images/sponge_scene.png)
 
 ---
 
