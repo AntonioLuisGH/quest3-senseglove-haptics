@@ -41,7 +41,7 @@ A 15 cm x-axis offset is silently applied to the virtual right hand after calibr
 
 **Familiarization** — One minute of free exploration with a set of everyday objects (shape-sorting toys, food, plants, plush toys) before any data is recorded. Gives participants time to get used to the gloves and haptic response without the pressure of a task.
 
-![Familiarization Scene](Docs/Images/familiarization_scene.png)
+![Familiarization Scene](Docs/Images/familiarisation_scene.png)
 
 **Egg Task** — The participant transfers 15 fragile eggs from a table into a bowl without breaking them. Squeezing too hard — past a tuned yield distance of 25 mm with at least two fingers — cracks the egg and triggers a shell fragment break animation, a crack sound effect, and a full-hand haptic burst waveform. A HUD displays the live bowl count and broken egg tally. Completion time is recorded automatically.
 
