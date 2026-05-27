@@ -51,7 +51,6 @@ A 15 cm x-axis offset is silently applied to the virtual right hand after calibr
 
 ![Sponge Task](Docs/Images/sponge_scene.png)
 
-
 ---
 
 ## Project structure
